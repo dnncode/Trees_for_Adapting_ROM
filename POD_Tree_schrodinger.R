@@ -44,6 +44,8 @@ p = seq(0.05,0.5,0.01) # this is the parameter set used to simulate the data
 n = length(p) # number of parameters
 
 # get the data (this is the simulated training data)
+# Note that: the data can be generated from Data_Generation.R. 
+# Hence, the users need to run Data_Generation.R first
 load("u.list.schrodinger.RData")
 # Here:
 # u.list is a list. The length of the list equals "n"
